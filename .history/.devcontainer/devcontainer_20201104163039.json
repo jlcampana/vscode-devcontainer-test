@@ -1,0 +1,9 @@
+{
+  "name": "node12",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:12",
+  "settings": {
+		"terminal.integrated.shell.linux": null
+  },
+  "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+  "postCreateCommand": "bash scripts/install-dev-tools.sh"
+}
