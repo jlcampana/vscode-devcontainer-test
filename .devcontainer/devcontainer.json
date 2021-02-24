@@ -1,5 +1,5 @@
 {
-	"name": "Node12+Redis",
+	"name": "Wordpress/Node12/Redis",
 
 	// Sets the run context to one level up instead of the .devcontainer folder.
 	"context": "..",
