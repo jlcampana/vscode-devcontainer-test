@@ -16,12 +16,13 @@
 	"extensions": [],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [80, 1337, 3000, 3003],
+  "postAttachCommand": "echo Run nvm install 12"
 
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
-  //"postCreateCommand":  "~/.bash_it/install.sh",
+  //"postCreateCommand":  "/workspaces/autorun.sh",
 
-  "postStartCommand": "service redis-server restart",
+  //"postStartCommand": "service redis-server restart"
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
