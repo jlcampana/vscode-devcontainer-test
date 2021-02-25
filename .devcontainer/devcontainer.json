@@ -16,8 +16,8 @@
 	"extensions": [],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [80, 1337, 3000, 3003],
-  "postAttachCommand": "echo Run nvm install 12"
+	"forwardPorts": [80, 1337, 3000, 3003]
+  //"postAttachCommand": "echo Run nvm install 12"
 
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
   //"postCreateCommand":  "/workspaces/autorun.sh",
