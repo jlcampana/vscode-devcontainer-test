@@ -34,7 +34,7 @@ services:
       - "6379:6379"
 
   app:
-    image: macpanda/node12custom
+    image: macpanda/node12custom:1
     container_name: dev_container_wp
     ports:
       - "1337:1337"
