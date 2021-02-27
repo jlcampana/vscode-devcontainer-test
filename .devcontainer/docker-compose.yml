@@ -30,5 +30,14 @@ services:
   redis:
     image: redis
     container_name: POC_REDIS
+
+  app:
+    build: .
+    container_name: WP_POC
+    ports:
+      - "1337:1337"
+      - "3000:3000"
+      - "3003:3003"
+
 volumes:
   db_data: {}

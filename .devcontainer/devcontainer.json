@@ -4,6 +4,7 @@
 	// Sets the run context to one level up instead of the .devcontainer folder.
 	//"context": "..",
   "workspaceFolder": "/home/root",
+  "service": "app",
 
 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 	//"dockerFile": "Dockerfile",
