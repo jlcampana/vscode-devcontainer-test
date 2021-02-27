@@ -1,11 +1,14 @@
 {
-	"name": "Node_Redis_WP",
+	"name": "WP_POC",
 
 	// Sets the run context to one level up instead of the .devcontainer folder.
-	"context": "..",
+	//"context": "..",
+  "workspaceFolder": "/home/root",
 
 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
-	"dockerFile": "Dockerfile",
+	//"dockerFile": "Dockerfile",
+  "dockerComposeFile": "./docker-compose.yml",
+
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
